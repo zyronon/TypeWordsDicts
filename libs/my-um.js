@@ -16,7 +16,7 @@
       k = $(`${g}tag`) || void 0, N = "false" !== $(`${g}auto-track`), T = $(`${g}do-not-track`) === b,
       A = $(`${g}exclude-search`) === b, j = $(`${g}exclude-hash`) === b, x = $(`${g}domains`) || "",
       L = $(`${g}fetch-credentials`) || "omit", E = x.split(",").map(t => t.trim()),
-      K = `${(w || "https://stat.typewords.cc" || l.src.split("/").slice(0, -1).join("/")).replace(/\/$/, "")}/api/send`, O = `${e}x${a}`,
+      K = `${(w || "https://um.typewords.cc" || l.src.split("/").slice(0, -1).join("/")).replace(/\/$/, "")}/api/send`, O = `${e}x${a}`,
       U = /data-umami-event-([\w-_]+)/, _ = `${g}umami-event`, D = 300, P = t => {
         if (!t) return t;
         try {
